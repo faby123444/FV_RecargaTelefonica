@@ -38,6 +38,7 @@
             </Picker.ItemsSource>
         </Picker>
     </StackLayout>
+        <Label Text="Ha seleccionado una recarga de:" />
         <Button Text="Recargar" Clicked="FV_RecargarClicked" />
     </StackLayout>
 </ContentPage>

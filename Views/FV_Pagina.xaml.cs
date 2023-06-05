@@ -12,8 +12,7 @@ public partial class FV_Pagina : ContentPage
 
 	private void InitializeComponent()
 	{
-		// Aquí se inicializan los componentes de la página, como los controles visuales. 
-		// Asegúrate de agregar el código correspondiente para inicializar los controles que tienes en tu página.
+		Models.FV_Recarga recarga = new Models.FV_Recarga();
 	}
 
 	public async void FV_RecargarClicked(string numero, string valor)
